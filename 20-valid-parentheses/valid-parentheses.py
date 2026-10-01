@@ -12,5 +12,4 @@ class Solution(object):
             else:
                 if not stack or stack.pop() != ch:
                     return False
-
         return not stack
